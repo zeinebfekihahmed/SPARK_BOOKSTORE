@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" fx:id="table_commande" prefHeight="578.0" prefWidth="905.0" style="-fx-background-color: #bdc3c7;" stylesheets="@../css/style.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bookstore.Testing.PasserCommandeController">
+   <children>
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+      <Text fill="WHITE" layoutX="668.0" layoutY="65.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Confirmation" wrappingWidth="133.6318359375">
+         <font>
+            <Font size="22.0" />
+         </font></Text>
+      <Text fill="WHITE" layoutX="336.0" layoutY="418.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Total price:" />
+      <Text fx:id="idTotal" fill="WHITE" layoutX="415.0" layoutY="419.0" strokeType="OUTSIDE" strokeWidth="0.0" text="000,000 dt">
+         <font>
+            <Font size="16.0" />
+         </font></Text>
+      <Button fx:id="confirm_btn_id" layoutX="547.0" layoutY="393.0" mnemonicParsing="false" onAction="#onCliqConfirmer" text="checkout" />
+      <Button id="back" fx:id="annuler_btn_id" layoutX="547.0" layoutY="431.0" mnemonicParsing="false" onAction="#onCliqAnnuler" prefHeight="25.0" prefWidth="65.0" text="cancel" />
+      <ImageView fitHeight="333.0" fitWidth="228.0" layoutX="14.0" layoutY="142.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/Capture.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="93.0" fitWidth="86.0" layoutX="787.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/ic_cart.png" />
+         </image>
+      </ImageView>
+      <TableView fx:id="table_panier" layoutX="317.0" layoutY="101.0" pickOnBounds="false" prefHeight="271.0" prefWidth="526.0" style="-fx-background-color: #a2b8ee;" stylesheets="@../css/style.css">
+         <columns>
+            <TableColumn fx:id="nomlivre_id" prefWidth="178.0" text="book" />
+            <TableColumn fx:id="prix" prefWidth="164.0" text="cost" />
+            <TableColumn fx:id="Quantite" prefWidth="183.0" text="QTY" />
+         </columns>
+      </TableView>
+   </children>
+</AnchorPane>
