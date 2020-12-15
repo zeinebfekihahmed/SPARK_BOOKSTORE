@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" styleClass="background-image" stylesheets="@FichierCss.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.bookstore.gui.ModifierOffreController">
+   <children>
+      <TableView fx:id="table" layoutX="184.0" layoutY="63.0" onMouseClicked="#getSelected" prefHeight="200.0" prefWidth="412.0">
+         <columns>
+            <TableColumn fx:id="cid" prefWidth="75.0" text="Id" visible="false" />
+            <TableColumn fx:id="col_nom" prefWidth="126.0" text="NOM OFFRE" />
+            <TableColumn fx:id="col_dd" prefWidth="90.0" text="DATE DEBUT" />
+            <TableColumn fx:id="col_df" prefWidth="88.0" text="DATE FIN" />
+            <TableColumn fx:id="col_re" prefWidth="107.0" text="TAUX DE REMISE" />
+         </columns>
+      </TableView>
+      <TextField fx:id="tfn" layoutX="21.0" layoutY="85.0" promptText="Nom Offre" />
+      <TextField fx:id="tfdd" layoutX="21.0" layoutY="138.0" promptText="Date Debut" />
+      <TextField fx:id="tfdf" layoutX="21.0" layoutY="188.0" promptText="Date Fin" />
+      <Button layoutX="274.0" layoutY="320.0" mnemonicParsing="false" onAction="#onUpdate" prefHeight="25.0" prefWidth="110.0" style="-fx-background-color: #00a1ff;" text="Modifier" />
+      <TextField fx:id="id" layoutX="7.0" layoutY="366.0" opacity="0.0" promptText="Search">
+         <font>
+            <Font size="1.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="search" layoutX="338.0" layoutY="22.0" onMouseClicked="#searchMethode" promptText="Search" />
+      <TextField fx:id="tfre" layoutX="21.0" layoutY="231.0" promptText="Taux de Remise" />
+   </children>
+</AnchorPane>

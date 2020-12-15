@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/Dridi/Documents/NetBeansProjects/BookStore/src/edu/bookstore/entites/Offre.java</file>
+            <file>file:/C:/Users/Dridi/Documents/NetBeansProjects/BookStore/src/edu/bookstore/services/OffreCRUD.java</file>
+            <file>file:/C:/Users/Dridi/Documents/NetBeansProjects/BookStore/src/edu/bookstore/gui/LireLivre.fxml</file>
+            <file>file:/C:/Users/Dridi/Documents/NetBeansProjects/BookStore/src/edu/bookstore/gui/SuppOffre.fxml</file>
+            <file>file:/C:/Users/Dridi/Documents/NetBeansProjects/BookStore/src/edu/bookstore/test/MainClass.java</file>
+            <file>file:/C:/Users/Dridi/Documents/NetBeansProjects/BookStore/src/edu/bookstore/gui/FichierCss.css</file>
+            <file>file:/C:/Users/Dridi/Documents/NetBeansProjects/BookStore/src/edu/bookstore/gui/AjouterOffre.fxml</file>
+            <file>file:/C:/Users/Dridi/Documents/NetBeansProjects/BookStore/src/edu/bookstore/gui/OffreWindow.java</file>
+            <file>file:/C:/Users/Dridi/Documents/NetBeansProjects/BookStore/src/edu/bookstore/gui/OffreDetailController.java</file>
+            <file>file:/C:/Users/Dridi/Documents/NetBeansProjects/BookStore/src/edu/bookstore/gui/OffreDetail.fxml</file>
+            <file>file:/C:/Users/Dridi/Documents/NetBeansProjects/BookStore/src/edu/bookstore/gui/RechercheLivre.fxml</file>
+            <file>file:/C:/Users/Dridi/Documents/NetBeansProjects/BookStore/src/edu/bookstore/gui/TextToSpeech.fxml</file>
+            <file>file:/C:/Users/Dridi/Documents/NetBeansProjects/BookStore/src/edu/bookstore/gui/ModifierOffre.fxml</file>
+            <file>file:/C:/Users/Dridi/Documents/NetBeansProjects/BookStore/src/edu/bookstore/gui/ModifierOffreController.java</file>
+            <file>file:/C:/Users/Dridi/Documents/NetBeansProjects/BookStore/src/edu/bookstore/gui/SuppOffreController.java</file>
+            <file>file:/C:/Users/Dridi/Documents/NetBeansProjects/BookStore/src/edu/bookstore/gui/AjouterOffreController.java</file>
+            <file>file:/C:/Users/Dridi/Documents/NetBeansProjects/BookStore/src/edu/bookstore/gui/TextToSpeechController.java</file>
+            <file>file:/C:/Users/Dridi/Documents/NetBeansProjects/BookStore/src/edu/bookstore/test/MyConnection.java</file>
+        </group>
+    </open-files>
+</project-private>
