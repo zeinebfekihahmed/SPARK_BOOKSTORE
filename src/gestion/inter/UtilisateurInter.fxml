@@ -17,7 +17,7 @@
                   <Image url="@130959240_998278653914477_5192250442639689508_n.jpg" />
                </image>
             </ImageView>
-            <Label fx:id="User" layoutX="418.0" layoutY="15.0" prefHeight="17.0" prefWidth="102.0" text="User" />
+            <Label fx:id="User" layoutX="418.0" layoutY="15.0" prefHeight="17.0" prefWidth="67.0" text="User" />
             <Label layoutX="193.0" layoutY="32.0" prefHeight="70.0" prefWidth="323.0" text="GRANDMA" textFill="#fff457">
                <font>
                   <Font name="System Bold" size="48.0" />
